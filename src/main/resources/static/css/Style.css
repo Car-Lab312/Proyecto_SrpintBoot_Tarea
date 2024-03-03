@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.crear {
+    display: flex;
+    justify-content: center;
+}
+
+.ingresar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.tabla_tareas {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 100%; /* Para ocupar el ancho completo del contenedor */
+}
+
+label {
+    display: block; /* Para que el label ocupe una línea completa */
+    margin-top: 10px;
+}
+
+table {
+    border-radius: 8px;
+    width: 45%;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.acciones {
+    text-align: center;
+}
